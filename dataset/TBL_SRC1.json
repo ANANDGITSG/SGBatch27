@@ -2,7 +2,7 @@
 	"name": "TBL_SRC1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_SQL_KV",
+			"referenceName": "LS_SQL_PARAM",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
