@@ -1,5 +1,5 @@
 {
-	"name": "Emp1_Pipeline1",
+	"name": "Emp1_Pipeline2",
 	"properties": {
 		"activities": [
 			{
@@ -8,7 +8,7 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"waitTimeInSeconds": 500
+					"waitTimeInSeconds": 1
 				}
 			}
 		],
