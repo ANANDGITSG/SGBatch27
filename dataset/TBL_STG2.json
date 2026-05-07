@@ -2,7 +2,7 @@
 	"name": "TBL_STG2",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_SQL_KV",
+			"referenceName": "LS_SQL",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -21,7 +21,11 @@
 				"name": "CITY",
 				"type": "varchar"
 			}
-		]
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TBL_STG2"
+		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }
