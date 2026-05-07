@@ -1,0 +1,25 @@
+{
+	"name": "Eventbasedtrigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Event_based_Pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adf/blobs/eventbased",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/c4efc4cb-93a5-44a7-ac9c-c791a000d71f/resourceGroups/Batch32/providers/Microsoft.Storage/storageAccounts/adls2batch32",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
