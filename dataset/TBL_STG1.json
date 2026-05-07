@@ -2,7 +2,7 @@
 	"name": "TBL_STG1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_SQL",
+			"referenceName": "LS_SQL_KV",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -17,11 +17,7 @@
 				"name": "NAME",
 				"type": "varchar"
 			}
-		],
-		"typeProperties": {
-			"schema": "dbo",
-			"table": "TBL_STG1"
-		}
+		]
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }

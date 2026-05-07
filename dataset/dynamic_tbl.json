@@ -2,7 +2,7 @@
 	"name": "dynamic_tbl",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_SQL",
+			"referenceName": "LS_SQL_KV",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
@@ -14,7 +14,6 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "DBO",
 			"table": {
 				"value": "@dataset().tbl_Name",
 				"type": "Expression"

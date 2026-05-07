@@ -14,11 +14,8 @@
 					"secureInput": false
 				},
 				"userProperties": [],
-				"typeProperties": {
-					"storedProcedureName": "[dbo].[sp_Capstone1_stg2DW]"
-				},
 				"linkedServiceName": {
-					"referenceName": "LS_SQL",
+					"referenceName": "LS_SQL_KV",
 					"type": "LinkedServiceReference"
 				}
 			}
